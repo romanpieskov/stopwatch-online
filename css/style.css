@@ -1,0 +1,410 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+.title {
+  width: 325px;
+  margin: 30px auto 0px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.wrapper {
+  width: 518px;
+  height: 115px;
+  overflow: hidden;
+  margin: 30px auto 0px;
+  font-size: 110px;
+  font-weight: 700;
+  background: #e1e3ff;
+  border: 10px solid #000;
+  border-radius: 15px;
+}
+
+.numbers {
+  width: 500px;
+  height: 110px;
+  margin: 0px 0px 10px 6px;
+}
+
+.mseconds {
+  margin-left: 6px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.buttons {
+  width: 520px;
+  margin: 20px auto;
+}
+
+.button {
+  width: 170px;
+  height: 50px;
+  margin: 0px;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  background: #337ab7;
+}
+
+.button:hover {
+  background: #285d8b;
+}
+
+.interval {
+  background: #5cb85c;
+}
+
+.interval:hover {
+  background: #449d44;
+}
+
+.clear {
+  background: #d9534f;
+}
+
+.clear:hover {
+  background: #c9302c;
+}
+
+.container {
+  width: 398px;
+  margin: 20px auto;
+}
+
+.shapka {
+  width: 396px;
+  height: 38px;
+  margin: 4px auto;
+  overflow: hidden;
+  font-size: 22px;
+  font-weight: 600;
+  border: 1px solid black;
+}
+
+.number_title {
+  width: 48px;
+  float: left;
+  margin: 3px;
+  padding: 3px 3px 2px;
+  text-align: center;
+}
+
+.split_title {
+  width: 160px;
+  float: left;
+  padding: 5px 3px 2px;
+  text-align: center;
+}
+
+.time_title {
+  width: 160px;
+  height: 36px;
+  float: left;
+  padding: 5px 3px 2px;
+  text-align: center;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+
+.generalBlock {
+  width: 397px;
+  height: 38px;
+  margin: 4px auto;
+  overflow: hidden;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  border: 1px solid gray;
+}
+
+.saveNumbers {
+  width: 50px;
+  float: left;
+  margin: 2px;
+  padding: 7px 3px 2px;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.block {
+  width: 141px;
+  padding: 10px 0px 6px 25px;
+  font-size: 100%;
+  float: left;
+  overflow: hidden;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.blockSplit {
+  width: 141px;
+  padding: 10px 0px 6px 25px;
+  float: left;
+  overflow: hidden;
+  color: green;
+}
+
+.saveMs, .saveMsSplit {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+@media (max-width: 565px) {
+  .wrapper {
+    width: 96%;
+    height: 102px;
+    margin: 30px 1px;
+    font-size: 90px;
+    font-weight: 600;
+    border: 7px solid #000;
+  }
+
+  .numbers {
+    width: 442px;
+    height: 90px;
+    margin: 0px auto 10px;
+  }
+
+  .mseconds {
+    margin-left: 4px;
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .buttons {
+    width: 98%;
+    margin: 20px auto;
+  }
+
+ .button {
+    width: 32%;
+  }
+    .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 460px) {
+
+  .wrapper {
+    width: 97%;
+    height: 80px;
+    margin: 30px 1px;
+    font-size: 68px;
+    font-weight: 600;
+    border: 3px solid #000;
+  }
+
+  .numbers {
+    width: 335px;
+    height: 90px;
+    margin: 0px auto 10px;
+  }
+
+  .mseconds {
+    margin-left: 1px;
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .buttons {
+    width: 98%;
+    margin: 20px auto;
+  }
+
+ .button {
+    width: 32%;
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .generalBlock {
+    width: 350px;
+    height: 38px;
+    margin: 4px auto;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid gray;
+  }
+
+  .saveNumbers {
+    width: 35px;
+    float: left;
+    margin: 2px;
+    padding: 7px 3px 2px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .block {
+    width: 120px;
+    padding: 8px 5px;
+    float: left;
+    overflow: hidden;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+  }
+
+  .blockSplit {
+    width: 120px;
+    padding: 8px 22px;
+    float: left;
+    overflow: hidden;
+    color: green;
+  }
+
+  .shapka {
+    width: 350px;
+    height: 38px;
+    margin: 4px auto;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .number_title {
+    width: 35px;
+    margin: 3px;
+    padding: 3px 3px 2px;
+
+  }
+
+  .split_title {
+    width: 160px;
+    padding: 5px 3px 2px;
+  }
+
+  .time_title {
+    width: 122px;
+    height: 36px;
+    padding: 5px 3px 2px;
+  }
+}
+
+
+@media (max-width: 358px) {
+
+  .title {
+    width: 235px;
+    margin: 30px auto 0px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .wrapper {
+    width: 97%;
+    height: 48px;
+    margin: 25px 1px;
+    font-size: 46px;
+    font-weight: 600;
+    border: 3px solid #000;
+  }
+
+  .numbers {
+    width: 235px;
+    height: 50px;
+    margin: 0px auto 10px;
+  }
+
+  .mseconds {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .buttons {
+    width: 98%;
+    margin: 20px auto;
+  }
+
+ .button {
+    width: 32%;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .generalBlock {
+    width: 235px;
+    height: 38px;
+    margin: 4px auto;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid gray;
+  }
+
+  .saveNumbers {
+    width: 35px;
+    float: left;
+    margin: 2px;
+    padding: 12px 3px 2px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .block {
+    width: 86px;
+    padding: 14px 5px;
+    float: left;
+    overflow: hidden;
+    font-size: 15px;
+    font-weight: 500;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+  }
+
+  .blockSplit {
+    width: 90px;
+    padding: 15px 0px 0px 2px;
+    float: left;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 500;
+    color: green;
+  }
+
+  .saveMs {
+    margin: 10px 0px 0px 1px;
+    font-size: 10px;
+  }
+
+  .saveMsSplit {
+    margin: 9px 0px 0px 1px;
+    font-size: 10px;
+  }
+
+  .shapka {
+    width: 235px;
+    height: 38px;
+    margin: 4px auto;
+  }
+
+  .number_title {
+    width: 35px;
+    margin: 3px;
+    padding: 7px 3px 2px;
+    font-size: 16px;
+    font-weight: 500;
+
+  }
+
+  .split_title {
+    width: 90px;
+    padding: 10px 1px 2px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .time_title {
+    width: 88px;
+    height: 30px;
+    padding: 10px 3px 2px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
